@@ -35,7 +35,7 @@ var devMountainGoal = null
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-function greeting(name){
+function greeting(name) {
   return "Hello, " + name;
 }
 
@@ -44,7 +44,7 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var newGreeting = function(name){
+var newGreeting = function (name) {
   return "Hello, " + name;
 }
 
@@ -73,7 +73,7 @@ var dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-var devMountainClassPet = dog.name 
+var devMountainClassPet = dog.name
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter. 
@@ -83,10 +83,10 @@ var devMountainClassPet = dog.name
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-function nameCheck(name){
-  if(name === 'Steven'){
+function nameCheck(name) {
+  if (name === 'Steven') {
     return "What is up Steven?";
-  } else if (name === "Bryan"){
+  } else if (name === "Bryan") {
     return "Hey Bryan!";
   } else {
     return "Cool name, " + name
@@ -99,27 +99,30 @@ function nameCheck(name){
 // that will be numbers.
 // The add function should return the two parameters added together
 
-//Code Here
+function add(num1, num2){
+  return num1 + num2
+}
 
-//Now invoke add, passing in the numbers 3 and 4
-//storing the result in the variable mathSum.
 
-//Code Here
+  //Now invoke add, passing in the numbers 3 and 4
+  //storing the result in the variable mathSum.
 
-//////////////////PROBLEM 12////////////////////
+  var mathSum = add(3, 4);
 
-//Write a function called faveColorFinder that takes in one parameter called color
-// that will be a string.
-// If the passed in color equals 'red', return 'red is a great color'
-// If the passed in color equals 'green', return 'green is a solid favorite color'
-// If the passed in color equals 'black', return 'so trendy'
-// Otherwise, you should return the string 'you need to evaluate your favorite color choice'
+  //////////////////PROBLEM 12////////////////////
 
-// Code here
+  //Write a function called faveColorFinder that takes in one parameter called color
+  // that will be a string.
+  // If the passed in color equals 'red', return 'red is a great color'
+  // If the passed in color equals 'green', return 'green is a solid favorite color'
+  // If the passed in color equals 'black', return 'so trendy'
+  // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-//////////////////PROBLEM 13////////////////////
+  // Code here
 
-let duck = "cute";
+  //////////////////PROBLEM 13////////////////////
+
+  let duck = "cute";
 
 function bathroom() {
   let rubberDuck = "squeaky";
