@@ -26,7 +26,7 @@ var greatestFear = undefined
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+var devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
